@@ -1,0 +1,19 @@
+{
+  "name": "banka-blockchain",
+  "version": "1.0.0",
+  "description": "BanKa Smart Contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network bnbTestnet"
+  },
+  "dependencies": {
+    "hardhat": "^2.19.5",
+    "ethers": "^5.7.2",
+    "@openzeppelin/contracts": "^4.9.3"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.5"
+  }
+}
